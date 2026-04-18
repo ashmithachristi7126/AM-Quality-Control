@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI Defect Detection Dashboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<h1>AI BASED REAL TIME DEFECT DETECTION SYSTEM</h1>
+
+<h2 id="status">Machine Status</h2>
+
+<div class="container">
+
+<div class="card">
+<h3>Temperature</h3>
+<h2 id="temp">--</h2>
+</div>
+
+<div class="card">
+<h3>RPM</h3>
+<h2 id="rpm">--</h2>
+</div>
+
+<div class="card">
+<h3>Load</h3>
+<h2 id="load">--</h2>
+</div>
+
+<div class="card">
+<h3>Vibration</h3>
+<h2 id="vibration">--</h2>
+</div>
+
+</div>
+
+
+<div class="container">
+
+<div class="card">
+<h3>Surface Defect</h3>
+<h2 id="surface">--</h2>
+</div>
+
+<div class="card">
+<h3>Internal Defect</h3>
+<h2 id="internal">--</h2>
+</div>
+
+<div class="card">
+<h3>Machine Health</h3>
+<h2 id="health">--</h2>
+</div>
+
+</div>
+
+
+<div class="container">
+
+<div class="card">
+
+<h3>Alerts</h3>
+
+<div id="alerts"></div>
+
+</div>
+
+</div>
+
+
+<canvas id="sensorChart"></canvas>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+    "machine_state": {
+        "temperature": 47,
+        "rpm": 2400,
+        "load": 400,
+        "vibration": 1
+    },
+    "surface_defect_probability": 0.9113767743110657,
+    "internal_defect_probability": 0.0
+}

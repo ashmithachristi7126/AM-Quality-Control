@@ -1,0 +1,10 @@
+__pycache__/
+*.h5
+*.keras
+*.pkl
+dataset/
+dataset_all/
+dataset_bottle/
+mvtec/
+sensor_dataset/
+neu_dataset/

@@ -1,0 +1,17 @@
+# Safe machine operating limits
+
+TEMP_MIN = 25
+TEMP_MAX = 35
+
+RPM_MIN = 800
+RPM_MAX = 2000
+
+LOAD_MIN = 50
+LOAD_MAX = 300
+
+VIBRATION_LIMIT = 1
+
+# Risk thresholds
+RISK_LOW = 30
+RISK_MEDIUM = 60
+RISK_HIGH = 100
